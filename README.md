@@ -10,6 +10,15 @@ Stonewall Nation (The First Gay Liberation Record)!
 Note: I posted the first song I added to this collection on social media. Strange fruit by Billie Holiday. The fact that this song was not included in the golden record was not entirely surprising. However, I feel like no other song better exemplifies humanity. It is well known to be a masterfully beautiful song about the lynching of black people in America. As time has passed, the song remains devastatingly relevant. I started this project with this song in mind. I still believe that Strange Fruit should be the first addition to any new golden record to immortalize the suffering of black people in America and the all too human tendency to oppress. We cannot let time erase these crimes and black music needs the amplification it deserves as the basis of most modern music. So many popular white artists simply appropriated the style and ingenuity of black artists. However, because of the negative response I received, I won't be including those models here. Some people were uncomfortable with me using a black woman’s voice for my art. Because of this morbid historic relationship of white artists using black art, I understand the discomfort. I do not want to be a source of pain, only of joy and support! I hope, through this full explanation, you understand my intentions were ally-ship though my delivery was pretty awful. I am so thankful to have an audience who speaks their mind and will tell me when I am out of line. Thank you everyone for the compassion and education you give me! I am a better person because of all of you. ❤ My lifelong goal is activism through science and art. 
 For FINAL readme/write up: https://prezi.com/view/BwtK1iFhxj3G3af9baxE/
 
+To run random STL Generator: 
+$pip install numpy-stl 
+$python genStl.py
+Then the STL will appear in the foler. 
+
+To generate a song based model:
+You must edit the line in fft.py to put in your own file name. Only accepts WAV files. 
+$python fft.py > yourFileName.xyz 
+Then, follow the instructions in the prezi above. 
 
 Midway Project checkpoint writeup: 
 Produces a randomized STL. 
